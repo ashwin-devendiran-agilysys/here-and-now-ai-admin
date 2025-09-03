@@ -1,0 +1,72 @@
+import { Participant } from './participant.model';
+
+export const MOCK_PARTICIPANTS: Participant[] = [
+  {
+    id: 1,
+    name: 'Aarav Sharma',
+    whatsapp: '+91 9876543210',
+    email: 'aarav.sharma@example.com',
+    linkedin: 'https://linkedin.com/in/aarav-sharma',
+    github_id: 'aarav-sharma',
+    python_skill: 8,
+    angular_skill: 7,
+    javascript_skill: 9,
+    html_skill: 8,
+    css_skill: 7,
+    java_skill: 6,
+    outcome: 'Excellent progress in web development. Strong in JavaScript and Python.',
+    created_at: '2025-01-10T10:00:00Z',
+    updated_at: '2025-09-01T15:30:00Z'
+  },
+  {
+    id: 2,
+    name: 'Meera Patel',
+    whatsapp: '+91 9876543222',
+    email: 'meera.patel@example.com',
+    linkedin: 'https://linkedin.com/in/meera-patel',
+    github_id: 'meera-patel',
+    python_skill: 6,
+    angular_skill: 8,
+    javascript_skill: 7,
+    html_skill: 9,
+    css_skill: 8,
+    java_skill: 5,
+    outcome: 'Great improvement in frontend technologies, particularly Angular and CSS.',
+    created_at: '2025-02-05T09:15:00Z',
+    updated_at: '2025-08-28T14:20:00Z'
+  },
+  {
+    id: 3,
+    name: 'Rohan Kumar',
+    whatsapp: '+91 9876543333',
+    email: 'rohan.kumar@example.com',
+    linkedin: 'https://linkedin.com/in/rohan-kumar',
+    github_id: 'rohan-kumar',
+    python_skill: 9,
+    angular_skill: 6,
+    javascript_skill: 8,
+    html_skill: 7,
+    css_skill: 6,
+    java_skill: 8,
+    outcome: 'Strong backend developer with excellent Python and Java skills.',
+    created_at: '2025-01-20T11:30:00Z',
+    updated_at: '2025-09-02T16:45:00Z'
+  },
+  {
+    id: 4,
+    name: 'Priya Singh',
+    whatsapp: '+91 9876543444',
+    email: 'priya.singh@example.com',
+    linkedin: 'https://linkedin.com/in/priya-singh',
+    github_id: 'priya-singh',
+    python_skill: 7,
+    angular_skill: 9,
+    javascript_skill: 8,
+    html_skill: 8,
+    css_skill: 9,
+    java_skill: 4,
+    outcome: 'Outstanding frontend developer with exceptional Angular and CSS skills.',
+    created_at: '2025-03-01T08:45:00Z',
+    updated_at: '2025-08-30T12:15:00Z'
+  }
+];

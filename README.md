@@ -1,16 +1,59 @@
-# HereAndNowAiAdmin
+# Participant Admin Dashboard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+A comprehensive Angular web application for managing participants (trainees) with full CRUD operations, search/sort/pagination, and analytics dashboard with charts.
 
-## Development server
+## Features
 
-To start a local development server, run:
+### Core Functionality
+- **Participants Management**: Complete CRUD operations for participant data
+- **Advanced Table**: Search, sort, and pagination capabilities
+- **Interactive Dashboard**: KPI cards and charts showing skill analytics
+- **Responsive Design**: Mobile-first approach using Angular Material
 
-```bash
-ng serve
-```
+### Technical Features
+- **API Integration**: RESTful API consumption with authentication
+- **Form Validation**: Comprehensive form validation with error handling
+- **Real-time Analytics**: Charts showing skill distributions and averages
+- **Material Design**: Professional UI using Angular Material components
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Prerequisites
+
+- **Node.js**: Version 18 or higher
+- **Angular CLI**: Version 17 or higher
+- **npm**: Version 8 or higher
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd here-and-now-ai-admin
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Configure API settings:**
+   
+   Edit `src/environments/environment.ts` and `src/environments/environment.prod.ts`:
+   ```typescript
+   export const environment = {
+     production: false, // true for production
+     apiBaseUrl: 'https://api.hereandnowai.com/public/api',
+     apiKeyHeaderName: 'X-API-KEY',
+     apiKeyValue: 'your-api-key-here' // Replace with your actual API key
+   };
+   ```
+
+4. **Start the development server:**
+   ```bash
+   ng serve
+   ```
+
+5. **Open your browser:**
+   Navigate to `http://localhost:4200`
 
 ## Code scaffolding
 
